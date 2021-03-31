@@ -14,7 +14,7 @@ export default (): React.ReactNode => {
       })}
     >
       <Card>
-        <Alert
+        {/* <Alert
           message={intl.formatMessage({
             id: 'pages.welcome.alertMessage',
             defaultMessage: '更快更强的重型组件，已经发布。',
@@ -26,18 +26,18 @@ export default (): React.ReactNode => {
             margin: -12,
             marginBottom: 48,
           }}
-        />
+        /> */}
         <Typography.Title level={2} style={{ textAlign: 'center' }}>
-          <SmileTwoTone /> Ant Design Pro <HeartTwoTone twoToneColor="#eb2f96" /> You
+          <SmileTwoTone /> Cyber Zijing <HeartTwoTone twoToneColor="#eb2f96" /> You
         </Typography.Title>
       </Card>
-      <p style={{ textAlign: 'center', marginTop: 24 }}>
+      {/* <p style={{ textAlign: 'center', marginTop: 24 }}>
         Want to add more pages? Please refer to{' '}
         <a href="https://pro.ant.design/docs/block-cn" target="_blank" rel="noopener noreferrer">
           use block
         </a>
         。
-      </p>
+      </p> */}
     </PageHeaderWrapper>
   );
 };

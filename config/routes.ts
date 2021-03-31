@@ -31,7 +31,14 @@
                 path: '/welcome',
                 name: 'welcome',
                 icon: 'smile',
-                component: './Welcome',
+                // component: './Welcome',
+                component: './Admin',
+              },
+              {
+                name: '主页',
+                icon: 'home',
+                path: '/home',
+                component: './Home',
               },
               {
                 path: '/admin',
@@ -49,6 +56,7 @@
                   },
                 ],
               },
+
               {
                 name: 'list.table-list',
                 icon: 'table',
